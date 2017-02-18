@@ -7,3 +7,7 @@ var shell = require('gulp-shell')
 gulp.task('build', shell.task([
   'gitbook build txt/ gh-pages/'
 ]));
+
+gulp.task('deploy', shell.task([
+  'gitbook deploy'
+]));
