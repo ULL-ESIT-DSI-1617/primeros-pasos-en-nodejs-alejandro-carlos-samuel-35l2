@@ -4,31 +4,31 @@
   "description": "GitBook Boilerplate",
   "main": "index.js",
   "scripts": {
-    "generate-gitbook": "./scripts/losh generate-gitbook",
-    "generate-wiki": "./scripts/losh generate-wiki",
+    "generate-gitbook": "node ./scripts/generate-gitbook.js",
+    "generate-wiki": "node ./scripts/generate-wiki.js",
     "build": "npm install && npm i gitbook-cli && npm run generate-gitbook && npm run generate-wiki",
-    "deploy-gitbook": "./scripts/losh deploy-gitbook",
-    "deploy-wiki": "./scripts/losh deploy-wiki",
+    "deploy-gitbook": "node ./scripts/deploy-gitbook.js",
+    "deploy-wiki": "node ./scripts/deploy-wiki.js",
     "deploy": "npm run build && npm run deploy-gitbook && npm run deploy-wiki",
-    "version": "./scripts/losh version",
+    "version": "node ./scripts/version.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/ULL-ESIT-DSI-1617/primeros-pasos-en-nodejs-alejandro-carlos-samuel-35l2",
-    "wiki": "https://github.com/enten/gitbook-boilerplate.wiki.git"
+    "wiki": "https://github.com/ULL-ESIT-DSI-1617/primeros-pasos-en-nodejs-alejandro-carlos-samuel-35l2.wiki.git"
   },
   "keywords": [
     "gitbook",
     "boilerplate",
     "starter"
   ],
-  "author": "Steven Enten <steven@enten.fr>",
+  "author": "Alejandro Arzola García <alu0100814712@ull.edu.es>, Carlos de Armas Hernández <alu0100816167@ull.edu.es>, Samuel Valcárcel Arce <samuvalcarcel@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/ULL-ESIT-DSI-1617/primeros-pasos-en-nodejs-alejandro-carlos-samuel-35l2/issues"
   },
-  "homepage": "https://github.com/enten/gitbook-boilerplate#readme",
+  "homepage": "https://github.com/ULL-ESIT-DSI-1617/primeros-pasos-en-nodejs-alejandro-carlos-samuel-35l2/#README",
   "devDependencies": {
     "async": "^1.4.0",
     "fs-extra": "^0.22.1",
@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "minimist": "^1.2.0",
+    "shelljs": "^0.7.6",
     "simple-git": "^1.66.0"
   }
 }
