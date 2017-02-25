@@ -12,7 +12,7 @@
     * [Editores e IDE's necesarios](./capitulo_3/contenido.md)
 
 * [Capítulo 4](./capitulo_4/README.md)
-    * [Node.js y npm](./capitulos/capitulo_4/contenido.md)
+    * [Node.js y npm](./capitulo_4/contenido.md)
 
 * [Capítulo 5](./capitulo_5/README.md)
     * [MarkDown & Gitbook](./capitulo_5/contenido.md)
