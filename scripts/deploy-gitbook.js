@@ -1,5 +1,6 @@
-console.log("Deploy Gitbook");
+var ghpages = require('gh-pages');
+var path = require('path');
 
-let repo = (require('./package.json').repository.url);
-
-require('gh-pages').publish('./gh-pages', { repo: 'repo', logger: function(m) { console.error(m); } });
+ghpages.publish(path.join(__dirname, '_book/*'), function(err) {
+    console.log("Desplegando libro");
+ });
