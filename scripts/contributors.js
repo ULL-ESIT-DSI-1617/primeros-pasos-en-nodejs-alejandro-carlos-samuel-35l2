@@ -39,7 +39,7 @@ function print_maintainers() {
 }
 
 function main() {
-  if(fs.existsSync('../MAINTAINERS') {
+  if(fs.existsSync('../MAINTAINERS')) {
     update_maintainers();
     print_maintainers();
   }
