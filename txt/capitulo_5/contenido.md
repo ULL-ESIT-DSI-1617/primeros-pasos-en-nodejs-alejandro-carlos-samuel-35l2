@@ -24,7 +24,7 @@ Para obtener una vista previa del libro de manera local, utilizamos `$ gitbook s
 
 Para generar la página web sobre el libro: `$ gitbook build`.
 
-![gitbook](/img/gitbook.png)
+![gitbook](../img/gitbook.png)
 
 ## gh-pages
 
