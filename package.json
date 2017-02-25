@@ -35,5 +35,9 @@
     "gh-pages": "^0.3.1",
     "gitbook-cli": "^0.3.4",
     "gitbook": "^2.1.0"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "simple-git": "^1.66.0"
   }
 }
