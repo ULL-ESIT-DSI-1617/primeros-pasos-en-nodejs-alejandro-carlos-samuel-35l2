@@ -2,6 +2,25 @@
 
 Reescriba los apuntes realizados en la [Práctica: Tareas Iniciales](https://github.com/ULL-ESIT-DSI-1617/tareas-iniciales-alejandro-carlos-samuel-1) para seguir una estructura de directorios diferente, simplificando el despliegue en gh-pages.
 
+# Basic Usage
+
+1. Una vez realizado el `git clone` del repositorio, se debe ejecutar: `npm install`, para crear el directorio `node_modules` con las dependencias necesarias.
+
+2. Los ficheros en formato `.md` deben guardarse en el directorio txt siguiendo la estructura deseada.
+
+3. Para generar el libro, se deberá ejectuar: `gulp build`.
+
+4. Para desplegar el libro en `gh-pages`se deberá ejectuar: `gulp deploy`.
+
+5. Para actualizar el fichero `MAINTAINERS` y que se actualicen los contribuidores del repositorio, se debe ejecutar: `node ./scripts/contributors.js`.
+
+6. Para modificar el fichero `VERSION`, se debe ejectuar: `node ./scripts/version.js option`, donde `option` puede ser cualquiera de los siguientes argumentos:
+      * `--major | -M`: Aumentar el major y establecer el minor y patch a 0.
+      * `--minor | -m`:Aumentar el minor y establecer el patch a 0.
+      * `--patch | -p`: Aumentar el patch.
+
+
+
 # Miembros del equipo
 
 * [Alejandro Arzola](http://aleag.github.io)
@@ -21,7 +40,8 @@ https://ull-esit-dsi-1617.github.io/primeros-pasos-en-nodejs-alejandro-carlos-sa
 
 # GitBook:
 
-https://aleag.gitbooks.io/prct01-tareas-iniciales/content/
+https://aleag.gitbooks.io/prct02-primeros-pasos-nodejs/content/
+
 # Despliegue en [iaas.ull.es](iaas.ull.es):
 
 
