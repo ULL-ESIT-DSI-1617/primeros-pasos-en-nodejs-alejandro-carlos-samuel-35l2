@@ -43,6 +43,9 @@ https://ull-esit-dsi-1617.github.io/primeros-pasos-en-nodejs-alejandro-carlos-sa
 https://aleag.gitbooks.io/prct02-primeros-pasos-nodejs/content/
 
 # Despliegue en [iaas.ull.es](iaas.ull.es):
+Recuerde que es necesario conectarse a la vpn de la ULL si está accediendo desde fuera de la red de la ULL.
+
+[Enlace a la aplicación corriendo en el servidor iaas](http://10.6.129.242:8080)
 
 
 # URL del repositorio git de la organización:
