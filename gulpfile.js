@@ -3,11 +3,11 @@ var ghPages = require('gulp-gh-pages');
 var shell = require('gulp-shell');
 
 gulp.task('build', shell.task([
-  'gitbook build txt/ gh-pages/'
+  'node ./scripts/generate-gitbook.js'
 ]));
 
 gulp.task('deploy', shell.task([
-  'gitbook deploy'
+  'node ./scripts/deploy-gitbook.js'
 ]));
 
 gulp.task('serve', shell.task([
