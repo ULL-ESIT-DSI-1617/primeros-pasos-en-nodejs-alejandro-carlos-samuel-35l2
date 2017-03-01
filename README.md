@@ -45,7 +45,9 @@ https://aleag.gitbooks.io/prct02-primeros-pasos-nodejs/content/
 # Despliegue en [iaas.ull.es](iaas.ull.es):
 Recuerde que es necesario conectarse a la vpn de la ULL si está accediendo desde fuera de la red de la ULL.
 
-[Enlace a la aplicación corriendo en el servidor iaas](http://10.6.129.242:8080)
+* [Máquina iaas Alejandro](http://10.6.128.77:8080/)
+* [Máquina iaas Carlos](http://10.6.129.242:8080)
+* [Máquina iaas Samuel](http://10.6.128.77:8080/)
 
 
 # URL del repositorio git de la organización:
