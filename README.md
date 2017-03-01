@@ -2,7 +2,7 @@
 
 Reescriba los apuntes realizados en la [Práctica: Tareas Iniciales](https://github.com/ULL-ESIT-DSI-1617/tareas-iniciales-alejandro-carlos-samuel-1) para seguir una estructura de directorios diferente, simplificando el despliegue en gh-pages.
 
-# Basic Usage
+## Basic Usage
 
 1. Una vez realizado el `git clone` del repositorio, se debe ejecutar: `npm install`, para crear el directorio `node_modules` con las dependencias necesarias.
 
@@ -21,34 +21,34 @@ Reescriba los apuntes realizados en la [Práctica: Tareas Iniciales](https://git
 
 
 
-# Miembros del equipo
+## Miembros del equipo
 
 * [Alejandro Arzola](http://aleag.github.io)
 * [Carlos de Armas](http://alu0100816167.github.io)
 * [Samuel Valcárcel](http://cosaca.github.io)
 
-# Página de la asignatura en el campus virtual:
+## Página de la asignatura en el campus virtual:
 https://campusvirtual.ull.es/1617/course/view.php?id=1136
 
-# URL de la descripción de la práctica:
+## URL de la descripción de la práctica:
 
 https://casianorodriguezleon.gitbooks.io/ull-esit-1617/practicas/practicatareasiniciales2.html
 
-# GitHub pages:
+## GitHub pages:
 
 https://ull-esit-dsi-1617.github.io/primeros-pasos-en-nodejs-alejandro-carlos-samuel-35l2/
 
-# GitBook:
+## GitBook:
 
 https://aleag.gitbooks.io/prct02-primeros-pasos-nodejs/content/
 
-# Despliegue en [iaas.ull.es](iaas.ull.es):
+## Despliegue en [iaas.ull.es](iaas.ull.es):
 Recuerde que es necesario conectarse a la vpn de la ULL si está accediendo desde fuera de la red de la ULL.
 
 * [Máquina iaas Alejandro](http://10.6.128.77:8080/)
-* [Máquina iaas Carlos](http://10.6.129.242:8080)
-* [Máquina iaas Samuel](http://10.6.128.77:8080/)
+* [Máquina iaas Carlos](http://10.6.129.242:8080/)
+* [Máquina iaas Samuel](http://10.6.128.137:8080/)
 
 
-# URL del repositorio git de la organización:
+## URL del repositorio git de la organización:
 https://github.com/ULL-ESIT-DSI-1617/primeros-pasos-en-nodejs-alejandro-carlos-samuel-35l2
